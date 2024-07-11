@@ -3,6 +3,8 @@ import "./index.css";
 import logofooter from "../../assets/logofooter.svg";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 const Footer = () => {
   const { t } = useTranslation();
   return (
@@ -42,33 +44,6 @@ const Footer = () => {
                 </h2>
               </Link>
             </div>
-            {/* <div className="text-center lg:text-left flex flex-col gap-y-2 text-[#111c7a]">
-              <Link to="/knowledge">
-                <h1 className="text-[14px] lg:text-[20px] font-bold">
-                  {t("44791d40-5b5f-418f-94c8-4d1340987e8f")}
-                </h1>
-              </Link>
-              <Link to="/knowledge">
-                <h2 className="text-[10px] lg:text-[12px]">
-                  {t("a304dd2a-6256-4003-9069-f75f6781ecef")}
-                </h2>
-              </Link>
-              <Link to="/knowledge">
-                <h2 className="text-[10px] lg:text-[12px]">
-                  {t("3f368db8-dba1-4f32-a830-7de5c0ba97e4")}
-                </h2>
-              </Link>
-              <Link to="/knowledge">
-                <h2 className="text-[10px] lg:text-[12px]">
-                  {t("b6a7ca0b-ea62-4c4d-85e4-b3845d470b43")}
-                </h2>
-              </Link>
-              <Link to="/knowledge">
-                <h2 className="text-[10px] lg:text-[12px]">
-                  {t("c75985c5-9e94-45f6-bad1-0c6dd98f5b38")}
-                </h2>
-              </Link>
-            </div> */}
             <div className="text-center lg:text-left flex flex-col gap-y-2 text-[#111c7a]">
               <Link to="/contactus">
                 <h1 className="text-[14px] lg:text-[20px] font-bold">
@@ -134,31 +109,10 @@ const Footer = () => {
           <div className="mx-2 sm:ml-[5vh]">
             <div className="flex flex-col text-center lg:text-left lg:mt-[40px] text-[#111c7a] text-[20px] leading-7 font-bold pb-8">
               <h1>+987654321111</h1>
-              <h1>infi@fancystardiamonds.com</h1>
-            </div>
-            <div className="">
-              <div className="flex flex-row gap-x-8 justify-center w-[300px] mx-auto mt-8 border-b-[1px] lg:border-none border-[#111c7a] pb-8">
-                {/* <Link to="/">
-                  <img className="w-[40px] h-[40px]" src="./social/fb.svg" />
-                </Link> */}
-                {/* <Link to="/">
-                  <img className="w-[40px] h-[40px]" src="./social/insta.svg" />
-                </Link> */}
-                {/* <Link to="/">
-                  <img className="w-[40px] h-[40px]" src="./social/yt.svg" />
-                </Link> */}
-                {/* <Link to="/">
-                  <img
-                    className="w-[40px] h-[40px]"
-                    src="./social/twitter.svg"
-                  />
-                </Link> */}
-                {/* <Link to="/">
-                  <img
-                    className="w-[40px] h-[40px]"
-                    src="./social/linkedin.svg"
-                  />
-                </Link> */}
+              <h1>info@fancystardiamonds.com</h1>
+              <div class="flex flex-row justify-center lg:justify-start">
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-linkedin fa-2x ml-3"></i>
               </div>
             </div>
           </div>
