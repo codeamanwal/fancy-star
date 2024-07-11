@@ -110,10 +110,6 @@ const Footer = () => {
             <div className="flex flex-col text-center lg:text-left lg:mt-[40px] text-[#111c7a] text-[20px] leading-7 font-bold pb-8">
               <h1>+987654321111</h1>
               <h1>info@fancystardiamonds.com</h1>
-              <div class="flex flex-row justify-center lg:justify-start">
-                <i class="fab fa-instagram fa-2x"></i>
-                <i class="fab fa-linkedin fa-2x ml-3"></i>
-              </div>
             </div>
           </div>
         </div>
